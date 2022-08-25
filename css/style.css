@@ -1,0 +1,659 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 1600px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.main {
+    height:1000px;
+    background: url('../icons/main-bg.jpg') center center/cover no-repeat;
+}
+.logo_img {
+    margin-left: 70px;
+    margin-top: 43px;
+    height: 37px;
+    width: 37px;
+}
+
+.tittle {
+    position: absolute;
+    top: 53px;
+    margin-left: 110px;
+    color: #fff;
+    font-size: 25px;
+}
+.login {
+    color:#fff;
+    font-size: 25px;
+    margin-left:1300px ;
+    position: absolute;
+    top: 65px;
+    cursor: pointer;
+}
+.login:hover {
+    color: #1eacc7; 
+    text-decoration: underline; 
+}
+.main_button {
+    width: 130px;
+    height: 48px;
+    border-radius: 5px;
+    background-image: linear-gradient(to top,#1eacc7 0%,#4ce2ff 100% );
+    color:#fff;
+    margin-left:1400px ;
+    position: absolute;
+    top: 56px;
+    border: #4ce2ff;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+.main_button:hover {
+    color: #090b0e; 
+}
+.main_info{
+    margin-top: 180px;
+    margin-left: 217px;
+    color:#fff;
+}
+
+.header {
+    font-size: 83px;
+}
+.header_text {
+    font-size: 26px;
+    margin-top: 30px;
+}
+h3{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.gal_text{
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 17px;
+}
+.gal{
+    display: flex;
+}
+.kindle{
+    position: absolute;
+    margin-top: -24px;
+    margin-left: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.pdf{
+    position: absolute;
+    margin-top: -24px;
+    margin-left: -415px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.epub{
+    position: absolute;
+    margin-top: -24px;
+    margin-left: -870px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.gal_kindle{
+    margin-top: 20px;
+    height: 15px;
+    width: 15px;
+    margin-right:10px
+}
+.gal_pdf{
+    height: 15px;
+    width: 15px;
+    margin-left:-440px;
+    margin-top: 20px;
+}
+.gal_epub{
+    height: 15px;
+    width: 15px;
+    margin-top:20px;
+    margin-left: -900px;
+}
+.main_form{
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 217px;
+}
+.form_email{
+    height: 72px;
+    width: 420px;
+    border-radius: 5px;
+    background-color:#fff;  
+    font-size: 15px;
+    padding-left: 70px; 
+}
+.form_email:focus {
+    outline: none;
+}
+.email_form{
+    position: absolute ;
+    width: 25px;
+    padding-top: 24px;
+    margin-left: 30px;
+}
+.download_button{
+    position: absolute;
+    margin-left: 435px;
+    width: 222px;
+    height: 72px;
+    border-radius: 5px;
+    background-image: linear-gradient(to top,#1eacc7 0%,#4ce2ff 100% );
+    color:#fff;
+    border: #4ce2ff;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.download_button:hover {
+    color: #090b0e; 
+}
+.with_table {
+    height:1000px;
+    background: url(../icons/second-bg.webp) center center/cover no-repeat;
+}
+.table {
+    position: absolute;
+    
+}
+.white_bg {
+    width: 394px;
+    height: 515px;
+    border-radius:20px;
+    margin-top: 278px;
+    margin-left: 217px;
+}
+.blue_bg {
+    position: absolute;
+    width: 394px;
+    height: 515px;
+    border-radius:20px;
+    margin-top: 258px;
+    margin-left: -370px;
+}
+.white {
+    position: absolute;
+    width: 394px;
+    height: 515px;
+    border-radius:20px;
+    margin-top: 238px;
+    margin-left: -340px;
+}
+.diagrama{
+    position: absolute;
+    width: 367px;
+    height: 114px;
+    margin-top: 488px;
+    margin-left: -320px;
+}
+.blue_text{
+    position: absolute;
+    margin-left: 305px;
+    bottom: 500px;
+    color:rgb(41, 6, 240);
+    font-weight: bold;
+}
+.second_text{
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    left: 305px;
+    bottom: 310px;
+    line-height: 25px;
+}
+.last_text{
+    position: absolute;
+    left: 305px;
+    bottom: 120px;
+    line-height: 25px;
+}
+.inside {
+    padding-top: 220px;
+    margin-left:850px;
+    font-size: 70px;
+    font-weight: bold;
+}
+.inside_text{
+    margin-left: 850px;
+    padding-top: 20px;
+    color: grey;
+    line-height: 30px;
+}
+.inside_gal{
+    width:20px;
+    margin-top: 30px;
+}
+.complain{
+    margin-left: 850px;
+}
+.img_gal{
+    margin-left: 850px;
+    padding-top: 10px; 
+}
+.inside_info{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 40px;
+    margin-top: -30px;
+    line-height: 35px;
+    font-weight: bold;
+}
+.with_comm{
+    height:1000px;
+    background: url(../icons/second-bg.webp) center center/cover no-repeat;
+}
+.friends_logo{
+    position: absolute;
+    width: 56px;
+    left: 380px;
+    top: 98px;
+}
+.friends{
+    position: absolute;
+    font-weight: bold;
+    font-size: 70px;
+    margin-left:220px;
+    margin-top: 230px;
+}
+.girl_comments{
+    position: absolute;
+    width: 555px;
+    height: 353px;
+    margin-left: 220px;
+    margin-top: 480px;
+    border-radius:10px;
+}
+.man_comments{
+    position: absolute;
+    width: 555px;
+    height: 353px;
+    margin-left: 822px;
+    margin-top: 480px;
+    border-radius:10px;
+}
+.girl_logo{
+    position: absolute;
+    height: 88px;
+    width: 88px;
+    margin-top: 780px;
+    margin-left: 270px;
+}
+.man_logo{
+    position: absolute;
+    height: 88px;
+    width: 88px;
+    margin-top: 780px;
+    margin-left: 870px;
+}
+.girl_text{
+    position: absolute;
+    margin-top: 520px;
+    margin-left: 270px;
+    font-size: 20px;
+    color: #3d00e4;
+    line-height: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.man_text{
+    position: absolute;
+    margin-top: 520px;
+    margin-left: 870px;
+    font-size: 20px;
+    color: #3d00e4;
+    line-height: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.girl_name{
+    position: absolute;
+    margin-top: 880px;
+    margin-left: 270px;
+    font-size: 25px;
+    font-weight: bold;  
+}
+.girl_found{
+    position: absolute;
+    margin-top: 910px;
+    margin-left: 270px;
+    padding-top: 10px;
+    color:gray; 
+    font-size: 20px;  
+    font-weight: bold;
+}
+.man_name{
+    position: absolute;
+    margin-top: 880px;
+    margin-left: 870px;
+    font-size: 25px;
+    font-weight: bold;  
+}
+.man_found{
+    position: absolute;
+    margin-top: 910px;
+    margin-left: 870px;
+    padding-top: 10px;
+    color:gray; 
+    font-size: 20px;  
+    font-weight: bold;  
+}
+.with_form{
+    height:1200px;
+    background: url(../icons/second-bg.jpg) center center/cover no-repeat;
+}
+.book{
+    width: 70px;
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 48%;
+}
+.form_tittle{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#fff;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 330px;
+    line-height: 80px;
+}
+.full_name{
+    position: absolute;
+    margin-left: 530px;
+    margin-top: 50px;
+    height: 72px;
+    width:538px;
+    padding-left: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.full_name:focus {
+    outline:none;
+}
+.enter_email{
+    position: absolute;
+    margin-left: 530px;
+    margin-top: 140px;
+    height: 72px;
+    width:538px;
+    padding-left: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.enter_email:focus {
+    outline: none;
+}
+.empresa{
+    position: absolute;
+    margin-left: 810px;
+    margin-top: 230px;
+    height: 72px;
+    width: 260px;
+    padding-left: 30px;
+    font-size: 18px;   
+    border-radius: 5px;
+}
+.empresa:focus {
+    outline: none;
+}
+.telephone{
+    position: absolute;
+    margin-left: 530px;
+    margin-top: 230px;
+    height: 72px;
+    width: 260px;
+    padding-left: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.telephone:focus {
+    outline: none;
+}
+.form_button{
+    position: absolute;
+    margin-left: 630px;
+    margin-top: 350px;
+    width: 347px;
+    height: 70px;
+    border-radius: 5px;
+    background-image: linear-gradient(to top,#1eacc7 0%,#0ec2e6 100% );
+    color:#fff;
+    border: #4ce2ff;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.form_button:hover {
+    color: #090b0e; 
+}
+.form_text{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 460px;
+    color:#fff;
+}
+.frameworks{
+    height: 590px;
+    background:url(../icons/white-bg.jpg);
+}
+.amazon{
+    height: 120px;
+    width: 140px;
+    margin-left: 230px;
+    margin-top: -10px;
+}
+.apache{
+    height: 80px;
+    width: 220px;
+    margin-left: 230px;
+}
+.cordova{
+    height: 80px;
+    width: 220px;
+    margin-left: 230px;
+}
+.laravel{
+    height: 80px;
+    width: 140px;
+    margin-left: 230px;
+}
+.linux{
+    height: 80px;
+    width: 140px;
+    margin-left: -270px;
+}
+.meteor{
+    height: 80px;
+    width: 140px;
+    margin-left: 10px;
+}
+.mongo{
+    height: 80px;
+    width: 140px;
+    margin-left: 230px;
+}
+.react{
+    height: 80px;
+    width: 140px;
+    margin-left: 420px;
+}
+.frame{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    cursor: pointer;
+}
+
+.first_frame{
+    margin-top: -60px;
+    width: 300px;
+    height: 100px;
+}
+.second_frame{
+    margin-left: -720px;
+    margin-top: 300px;
+}
+
+.with_download {
+    height: 650px;
+    background: url(../icons/last-bg.jpg) center center/cover no-repeat;
+}
+.download_text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color:#fff;
+    padding-top: 208px;
+    font-size: 60px;
+    line-height: 80px;
+}
+.last_button{
+    position: absolute;
+    margin-left: 670px;
+    margin-top: 50px;
+    width: 240px;
+    height: 70px;
+    border-radius: 5px;
+    background-image: linear-gradient(to top,#1eacc7 0%,#0ec2e6 100% );
+    color:#fff;
+    border: #4ce2ff;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.last_button:hover {
+    color: #090b0e; 
+}
+.footer{
+    height: 750px;
+    background: url(../icons/last-bg.jpg) center center/cover no-repeat;
+}
+.footer_logo{
+    margin-left: 215px;
+    margin-top: 170px;
+    height: 37px;
+    width: 37px;
+}
+
+.logo_text{
+    position: absolute;
+    margin-top: -32px;
+    margin-left: 260px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+.footer_text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30px;
+    margin-left: 220px;
+    color:#fff;
+    line-height: 30px;
+    font-size: 14px;
+}
+.first_logotypes{
+    width: 20px;
+    margin-left: 220px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+.footer_logotypes{
+    width: 20px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.product{
+    color:#fff;
+    margin-top:-260px;
+    padding-left: 630px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.contact{
+    color:#fff;
+    margin-top: -23px;
+    padding-left: 830px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.head{
+    color:#fff;
+    margin-top: -23px;
+    padding-left: 1160px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.align{
+    height: 10px;
+    color:#fff;
+    line-height: 50px;
+    margin-left: 630px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.grow{
+    color:#1eacc7;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: -140px;
+}
+.grow:hover{
+    color:#fff;
+}
+.talk{
+    color:#fff;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: 10px;
+    line-height: 35px;
+}
+.email_us{
+    color:#1eacc7;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.email_us:hover{
+    color:#fff;
+}
+.market{
+    color:#fff;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 530px;
+    margin-top: -210px;
+    line-height: 35px;
+}
+.find{
+    color:#1eacc7;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 530px;
+    margin-top: 27px;
+}
+.find:hover{
+    color:#fff;
+}
+.power{
+    color:#fff;
+    font-size: 15px;
+    margin-left: -400px;
+    margin-top: 230px;
+    line-height: 35px;
+}
+.privacy{
+    color:#fff;
+    font-size: 15px;
+    margin-top: -27px;
+    margin-left: 670px;
+}
+.privacy:hover{
+    color:#1eacc7;
+}
