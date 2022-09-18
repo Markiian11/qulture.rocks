@@ -2,48 +2,49 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    width: 1600px;
+    width: 100%;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
-.main {
-    height:1000px;
+.talent {
     background: url('../icons/main-bg.jpg') center center/cover no-repeat;
 }
-.logo_img {
+
+.logo {
     margin-left: 70px;
-    margin-top: 43px;
     height: 37px;
     width: 37px;
+    font-size: 40px;
+    color:#fff;
 }
 
 .tittle {
-    position: absolute;
-    top: 53px;
-    margin-left: 110px;
+    padding-left: 15px;
     color: #fff;
     font-size: 25px;
+}
+.nav{
+    display: flex;
+    padding-top: 50px;
+}
+.log{
+    padding-left: 900px;
 }
 .login {
     color:#fff;
     font-size: 25px;
-    margin-left:1300px ;
-    position: absolute;
-    top: 65px;
     cursor: pointer;
+    padding-right: 30px;
 }
 .login:hover {
     color: #1eacc7; 
     text-decoration: underline; 
 }
-.main_button {
+.login_button {
     width: 130px;
     height: 48px;
     border-radius: 5px;
     background-image: linear-gradient(to top,#1eacc7 0%,#4ce2ff 100% );
     color:#fff;
-    margin-left:1400px ;
-    position: absolute;
-    top: 56px;
     border: #4ce2ff;
     font-weight: bold;
     font-size: 16px;
@@ -54,74 +55,73 @@
 }
 .main_info{
     margin-top: 180px;
-    margin-left: 217px;
+    margin-left: 317px;
     color:#fff;
 }
 
-.header {
+.talent_science {
     font-size: 83px;
 }
-.header_text {
+.talent_text {
     font-size: 26px;
     margin-top: 30px;
 }
-h3{
+p{
     font-size: 18px;
     margin-top: 20px;
 }
-.gal_text{
+.check_text{
     margin-top: 50px;
     font-weight: bold;
     font-size: 17px;
 }
-.gal{
+.check{
     display: flex;
 }
 .kindle{
-    position: absolute;
-    margin-top: -24px;
-    margin-left: 25px;
+    margin-top: -22px;
+    padding-left: 26px;
     font-size: 18px;
     font-weight: bold;
 }
 .pdf{
     position: absolute;
-    margin-top: -24px;
-    margin-left: -415px;
+    margin-top: 16px;
+    padding-left: 122px;
     font-size: 18px;
     font-weight: bold;
 }
 .epub{
     position: absolute;
-    margin-top: -24px;
-    margin-left: -870px;
+    margin-top: 16px;
+    padding-left:205px;
     font-size: 18px;
     font-weight: bold;
 }
-.gal_kindle{
+.check_kindle{
     margin-top: 20px;
     height: 15px;
     width: 15px;
-    margin-right:10px
+    margin-left:3px
 }
-.gal_pdf{
+.check_pdf{
     height: 15px;
     width: 15px;
-    margin-left:-440px;
+    margin-left:-537px;
     margin-top: 20px;
 }
-.gal_epub{
+.check_epub{
     height: 15px;
     width: 15px;
     margin-top:20px;
-    margin-left: -900px;
+    margin-left: -1090px;
 }
-.main_form{
+.talent_form{
     margin-top: 36px;
     display: flex;
     flex-direction: column;
-    width: 300px;
-    margin-left: 217px;
+    margin-left: 317px;
+    padding-bottom: 220px;
 }
 .form_email{
     height: 72px;
@@ -129,19 +129,21 @@ h3{
     border-radius: 5px;
     background-color:#fff;  
     font-size: 15px;
-    padding-left: 70px; 
+    padding-left: 80px; 
+    font-size: 17px;
 }
 .form_email:focus {
     outline: none;
 }
 .email_form{
     position: absolute ;
-    width: 25px;
+    font-size: 25px;
     padding-top: 24px;
-    margin-left: 30px;
+    margin-left: 40px;
+    color:rgb(168, 162, 162);
 }
 .download_button{
-    position: absolute;
+    margin-top: -70px;
     margin-left: 435px;
     width: 222px;
     height: 72px;
@@ -149,207 +151,170 @@ h3{
     background-image: linear-gradient(to top,#1eacc7 0%,#4ce2ff 100% );
     color:#fff;
     border: #4ce2ff;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
     cursor: pointer;
 }
 .download_button:hover {
     color: #090b0e; 
 }
-.with_table {
-    height:1000px;
-    background: url(../icons/second-bg.webp) center center/cover no-repeat;
+.whats_inside {
+    background-color: rgb(245, 243, 243);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 .table {
-    position: absolute;
-    
-}
-.white_bg {
-    width: 394px;
-    height: 515px;
-    border-radius:20px;
-    margin-top: 278px;
-    margin-left: 217px;
-}
-.blue_bg {
-    position: absolute;
-    width: 394px;
-    height: 515px;
-    border-radius:20px;
-    margin-top: 258px;
-    margin-left: -370px;
-}
-.white {
-    position: absolute;
-    width: 394px;
-    height: 515px;
-    border-radius:20px;
-    margin-top: 238px;
-    margin-left: -340px;
-}
-.diagrama{
-    position: absolute;
-    width: 367px;
-    height: 114px;
-    margin-top: 488px;
-    margin-left: -320px;
+    margin-bottom: 300px;
+    margin-top: 250px;
+    margin-left: 360px;
+    background-color: #fff;
+    width: 850px;  
+    height: 570px;
+    border-radius: 10px;
+    box-shadow:-20px 20px 0 0 rgb(41, 6, 240),-40px 40px 0 0 rgb(255, 255, 255);
 }
 .blue_text{
-    position: absolute;
-    margin-left: 305px;
-    bottom: 500px;
-    color:rgb(41, 6, 240);
+    padding-top: 30px;
+    padding-left: 50px;
+    color:#3d00e4;
     font-weight: bold;
 }
 .second_text{
-    font-family:'Times New Roman', Times, serif;
-    position: absolute;
-    left: 305px;
-    bottom: 310px;
-    line-height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 10px;
+    padding-left: 50px;
+    font-size: 14px;
+    line-height: 26px;
+}
+.diagrama{
+    width: 380px;
+    padding-left: 36px;
 }
 .last_text{
-    position: absolute;
-    left: 305px;
-    bottom: 120px;
-    line-height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    padding-left: 50px;
+    line-height: 26px;
 }
+.inside_info{
+    margin-left: 200px;
+    margin-top: 250px;
+}
+
 .inside {
-    padding-top: 220px;
-    margin-left:850px;
+    color:#090b0e;
     font-size: 70px;
     font-weight: bold;
 }
 .inside_text{
-    margin-left: 850px;
-    padding-top: 20px;
     color: grey;
     line-height: 30px;
+    padding-top: 30px;
 }
-.inside_gal{
-    width:20px;
-    margin-top: 30px;
+.inside_check {
+    font-size: 20px;
+    padding-top: 30px;
 }
-.complain{
-    margin-left: 850px;
+.img_check{
+    padding-top: 30px;
 }
-.img_gal{
-    margin-left: 850px;
-    padding-top: 10px; 
-}
-.inside_info{
+.check_info{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 40px;
+    margin-left: 30px;
     margin-top: -30px;
     line-height: 35px;
     font-weight: bold;
 }
-.with_comm{
-    height:1000px;
-    background: url(../icons/second-bg.webp) center center/cover no-repeat;
+.people_comments{
+    background-color: rgb(245, 243, 243);
+}
+.friends{
+    font-weight: bold;
+    font-size: 70px;
+    padding-left: 250px;
+    padding-top: 100px;
 }
 .friends_logo{
     position: absolute;
-    width: 56px;
-    left: 380px;
-    top: 98px;
+    font-size: 50px;
+    color:#3d00e4;
+    margin-left: 20px;
+    margin-top: 20px;
 }
-.friends{
-    position: absolute;
-    font-weight: bold;
-    font-size: 70px;
-    margin-left:220px;
-    margin-top: 230px;
-}
-.girl_comments{
-    position: absolute;
-    width: 555px;
-    height: 353px;
-    margin-left: 220px;
-    margin-top: 480px;
-    border-radius:10px;
-}
-.man_comments{
-    position: absolute;
-    width: 555px;
-    height: 353px;
-    margin-left: 822px;
-    margin-top: 480px;
-    border-radius:10px;
-}
-.girl_logo{
-    position: absolute;
-    height: 88px;
-    width: 88px;
-    margin-top: 780px;
-    margin-left: 270px;
-}
-.man_logo{
-    position: absolute;
-    height: 88px;
-    width: 88px;
-    margin-top: 780px;
-    margin-left: 870px;
+.comments{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 .girl_text{
-    position: absolute;
-    margin-top: 520px;
-    margin-left: 270px;
+    background-color: #fff;
+    padding-top: 50px;
+    padding-left: 60px;
+    margin-top: 60px;
+    width: 555px;
+    margin-left: 250px;
+    border-radius:10px;
     font-size: 20px;
     color: #3d00e4;
     line-height: 40px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 .man_text{
-    position: absolute;
-    margin-top: 520px;
-    margin-left: 870px;
+    background-color: #fff;
+    padding-top: 50px;
+    padding-left: 60px;
+    margin-top: 60px;
+    width: 555px;
+    padding-bottom: 100px;
+    margin-left: 220px;
+    border-radius:10px;
+    margin-left: 100px;
     font-size: 20px;
     color: #3d00e4;
     line-height: 40px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
-.girl_name{
-    position: absolute;
-    margin-top: 880px;
-    margin-left: 270px;
-    font-size: 25px;
-    font-weight: bold;  
+.girl_logo{
+    margin-top: -40px;
+    font-size: 90px;
+    margin-left: 300px;
 }
-.girl_found{
-    position: absolute;
-    margin-top: 910px;
-    margin-left: 270px;
-    padding-top: 10px;
+.girl_founder{
+    margin-left: 300px;
+}
+.alexandra{
+    font-size: 25px;
+    font-weight: bold; 
+}
+.seo{
     color:gray; 
     font-size: 20px;  
     font-weight: bold;
 }
-.man_name{
-    position: absolute;
-    margin-top: 880px;
-    margin-left: 870px;
+.man_logo{
+    font-size: 90px;
+    margin-top: -200px;
+    margin-left: 950px;
+}
+.man_founder{
+    margin-left: 950px;
+    padding-bottom: 200px;
+}
+.charles{
     font-size: 25px;
     font-weight: bold;  
 }
-.man_found{
-    position: absolute;
-    margin-top: 910px;
-    margin-left: 870px;
-    padding-top: 10px;
+.cto{
     color:gray; 
     font-size: 20px;  
-    font-weight: bold;  
+    font-weight: bold; 
 }
-.with_form{
-    height:1200px;
+.baixe{
     background: url(../icons/second-bg.jpg) center center/cover no-repeat;
 }
 .book{
-    width: 70px;
-    position: absolute;
-    margin-top: 220px;
-    margin-left: 48%;
+    font-size: 100px;
 }
 .form_tittle{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -360,8 +325,7 @@ h3{
     line-height: 80px;
 }
 .full_name{
-    position: absolute;
-    margin-left: 530px;
+    margin-left: 710px;
     margin-top: 50px;
     height: 72px;
     width:538px;
@@ -373,9 +337,8 @@ h3{
     outline:none;
 }
 .enter_email{
-    position: absolute;
-    margin-left: 530px;
-    margin-top: 140px;
+    margin-left: 710px;
+    margin-top: 30px;
     height: 72px;
     width:538px;
     padding-left: 30px;
@@ -386,9 +349,8 @@ h3{
     outline: none;
 }
 .empresa{
-    position: absolute;
-    margin-left: 810px;
-    margin-top: 230px;
+    margin-left: 710px;
+    margin-top: 30px;
     height: 72px;
     width: 260px;
     padding-left: 30px;
@@ -399,9 +361,8 @@ h3{
     outline: none;
 }
 .telephone{
-    position: absolute;
-    margin-left: 530px;
-    margin-top: 230px;
+    margin-left: 14px;
+    margin-top: 30px;
     height: 72px;
     width: 260px;
     padding-left: 30px;
@@ -412,9 +373,8 @@ h3{
     outline: none;
 }
 .form_button{
-    position: absolute;
-    margin-left: 630px;
-    margin-top: 350px;
+    margin-left: 810px;
+    margin-top: 30px;
     width: 347px;
     height: 70px;
     border-radius: 5px;
@@ -431,53 +391,56 @@ h3{
 .form_text{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    padding-top: 460px;
+    padding-top: 40px;
     color:#fff;
+    padding-bottom: 200px;
 }
 .frameworks{
-    height: 590px;
-    background:url(../icons/white-bg.jpg);
+    background-color: #fff;
+    margin-top: 50px;
+    padding-bottom: 200px;
 }
 .amazon{
     height: 120px;
     width: 140px;
-    margin-left: 230px;
+    margin-left: 330px;
     margin-top: -10px;
 }
 .apache{
     height: 80px;
     width: 220px;
-    margin-left: 230px;
+    margin-left: 330px;
+
 }
 .cordova{
     height: 80px;
     width: 220px;
-    margin-left: 230px;
+    margin-left: 400px;
 }
 .laravel{
     height: 80px;
     width: 140px;
-    margin-left: 230px;
+    margin-left: 450px;
 }
 .linux{
     height: 80px;
     width: 140px;
-    margin-left: -270px;
+    margin-left: -170px;
 }
 .meteor{
     height: 80px;
     width: 140px;
-    margin-left: 10px;
+    margin-left: -10px;
 }
 .mongo{
     height: 80px;
     width: 140px;
-    margin-left: 230px;
+    margin-left: 185px;
 }
 .react{
     height: 80px;
     width: 140px;
-    margin-left: 420px;
+    margin-left: 330px;
 }
 .frame{
     display: flex;
@@ -490,16 +453,23 @@ h3{
 .first_frame{
     margin-top: -60px;
     width: 300px;
-    height: 100px;
 }
 .second_frame{
     margin-left: -720px;
     margin-top: 300px;
+    width: 100%;
 }
 
-.with_download {
+.download_ebook {
     height: 650px;
     background: url(../icons/last-bg.jpg) center center/cover no-repeat;
+}
+.book{
+    position: absolute;
+    font-size: 50px;
+    color:#fff;
+    margin-left: 50%;
+    margin-top: 240px;
 }
 .download_text{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -510,8 +480,7 @@ h3{
     line-height: 80px;
 }
 .last_button{
-    position: absolute;
-    margin-left: 670px;
+    margin-left: 870px;
     margin-top: 50px;
     width: 240px;
     height: 70px;
@@ -527,20 +496,23 @@ h3{
     color: #090b0e; 
 }
 .footer{
-    height: 750px;
     background: url(../icons/last-bg.jpg) center center/cover no-repeat;
 }
 .footer_logo{
     margin-left: 215px;
     margin-top: 170px;
-    height: 37px;
-    width: 37px;
+    font-size:40px;
+    color:#fff;
 }
-
+.foot{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 20px;
+}
 .logo_text{
-    position: absolute;
-    margin-top: -32px;
     margin-left: 260px;
+    margin-top: -32px;
     color: #fff;
     font-size: 25px;
     font-weight: bold;
@@ -553,54 +525,38 @@ h3{
     line-height: 30px;
     font-size: 14px;
 }
+.logotypes{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 100px;
+    margin-left: -900px;
+    width: 100px;
+}
 .first_logotypes{
-    width: 20px;
-    margin-left: 220px;
-    margin-top: 60px;
+    font-size: 25px;
     cursor: pointer;
+    color:#fff;
 }
 .footer_logotypes{
-    width: 20px;
-    margin-left: 25px;
+    font-size: 25px;
     cursor: pointer;
-}
-.product{
     color:#fff;
-    margin-top:-260px;
-    padding-left: 630px;
+    padding-left: 20px;
+}
+.products{
+    margin-top: 150px;
+    margin-left:420px;
+    color:#fff;
     font-size: 20px;
     font-weight: bold;
-}
-.contact{
-    color:#fff;
-    margin-top: -23px;
-    padding-left: 830px;
-    font-size: 20px;
-    font-weight: bold;
-}
-.head{
-    color:#fff;
-    margin-top: -23px;
-    padding-left: 1160px;
-    font-size: 20px;
-    font-weight: bold;
-}
-.align{
-    height: 10px;
-    color:#fff;
     line-height: 50px;
-    margin-left: 630px;
-    margin-top: 20px;
-    font-weight: bold;
-    font-size: 20px;
-    cursor: pointer;
 }
+
 .grow{
     color:#1eacc7;
     font-weight: bold;
     font-size: 20px;
-    margin-left: 200px;
-    margin-top: -140px;
 }
 .grow:hover{
     color:#fff;
@@ -609,34 +565,30 @@ h3{
     color:#fff;
     font-weight: bold;
     font-size: 20px;
-    margin-left: 200px;
-    margin-top: 10px;
     line-height: 35px;
 }
 .email_us{
     color:#1eacc7;
     font-weight: bold;
     font-size: 20px;
-    margin-left: 200px;
-    margin-top: 10px;
 }
 .email_us:hover{
     color:#fff;
+}
+.contacts{
+    margin-left: 240px;
+    margin-top: -235px;
 }
 .market{
     color:#fff;
     font-weight: bold;
     font-size: 20px;
-    margin-left: 530px;
-    margin-top: -210px;
     line-height: 35px;
 }
 .find{
     color:#1eacc7;
     font-weight: bold;
     font-size: 20px;
-    margin-left: 530px;
-    margin-top: 27px;
 }
 .find:hover{
     color:#fff;
@@ -644,15 +596,21 @@ h3{
 .power{
     color:#fff;
     font-size: 15px;
-    margin-left: -400px;
+    margin-left: -550px;
     margin-top: 230px;
     line-height: 35px;
+    margin-bottom: 100px;
+}
+.heads{
+    margin-left: 610px;
+    margin-top: -330px;
 }
 .privacy{
     color:#fff;
     font-size: 15px;
-    margin-top: -27px;
+    margin-top: -137px;
     margin-left: 670px;
+    padding-bottom: 100px;
 }
 .privacy:hover{
     color:#1eacc7;
